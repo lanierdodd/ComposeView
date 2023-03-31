@@ -10,8 +10,7 @@ import androidx.compose.material.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
-import com.example.composeview.opt.OTPView
-import com.example.composeview.progress.ProgressBarView
+import com.example.composeview.touch.TestTouch4
 import com.example.composeview.ui.theme.ComposeViewTheme
 
 class MainActivity : ComponentActivity() {
@@ -24,7 +23,7 @@ class MainActivity : ComponentActivity() {
                     modifier = Modifier.fillMaxSize(),
                     color = MaterialTheme.colors.background
                 ) {
-                    OTPView()
+                    TestTouch4()
                 }
             }
         }
